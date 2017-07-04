@@ -26,6 +26,18 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
+app.get('/younglings-learning', (req, res) => {
+  res.render('younglings-learning');
+});
+
+app.get('/join', (req, res) => {
+  res.render('join');
+});
+
+app.get('/partner', (req, res) => {
+  res.render('partner');
+});
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}!`);
 });
