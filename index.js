@@ -26,8 +26,8 @@ app.get('/', (req, res) => {
   res.render('home');
 });
 
-app.get('/younglings-learning', (req, res) => {
-  res.render('younglings-learning');
+app.get('/younglings-101', (req, res) => {
+  res.render('younglings-101');
 });
 
 app.get('/join', (req, res) => {
