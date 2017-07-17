@@ -1,7 +1,25 @@
-img {
-  height: 100px;
-  width: 100px;
+/*Banner*/
+.banner {
+  background-color: blue;
+  height: 116px;
 }
+
+  .banner h1 {
+    font-size: 12px;
+    display: inline;
+  }
+
+  .banner h2 {
+    position: relative;
+    font-size: 18px;
+    display: inline;
+  }
+
+  .banner img {
+    float: left;
+    height: 100px;
+    width: 100px;
+  }
 
 /*Social Media Tabs*/
 

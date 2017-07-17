@@ -15,6 +15,7 @@
         <button class="tablinks" onclick="openMedia(event, 'Facebook')">Facebook</button>
         <button class="tablinks" onclick="openMedia(event, 'Instagram')">Instagram</button>
         <button class="tablinks" onclick="openMedia(event, 'YouTube')">YouTube</button>
+        <button class="tablinks" onclick="openMedia(event, 'LinkedIn')">LinkedIn</button>
       </div>
 
       <!-- Embed Twitter Posts -->
@@ -37,19 +38,20 @@
       </div>
 
       <!-- Embed Instagram Posts -->
-      <!-- <div id="instafeed"></div> -->
       <div id="Instagram" class="tabcontent">
         <!-- Embed Instagram Posts -->
-        <div id="instagram"></div>
-        <script src="http://matthewelsom.com/assets/js/libs/instafeed.min.js"></script>
+        <script src="http://matthewelsom.com/assets/js/libs/instafeed.min.js" type="text/javacript"></script>
         <script type="text/javascript">
           var feed = new Instafeed({
+            target: 'instagram',
             get: 'tagged',
             tagName: 'awesome',
             clientId: '5f711d13ad084dd4856760f54db39e4b',
+            accessToken: '15267506.5f711d1.033f6f50adcc45b09a51b6a5cf893f23'
           });
           feed.run();
         </script>
+        <div id="instagram"></div>
         <!-- <script type="text/javascript">
           var userFeed = new Instafeed({
             target: 'instagram',
@@ -61,9 +63,15 @@
         </script> -->
       </div>
 
-      <!-- Embed Twitter Posts -->
+      <!-- Embed YouTube Playlist -->
       <div id="YouTube" class="tabcontent">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx08pIt0dtkxu-3RmlBIctB159UCNR-no" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <!-- Embed LinkedIn Posts -->
+      <div id="LinkedIn" class="tabcontent">
+        <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+        <script type="IN/MemberProfile" data-id="https://www.linkedin.com/in/cgunther13" data-format="inline" data-related="false"></script>
       </div>
 
       <script>
