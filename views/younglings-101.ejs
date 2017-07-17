@@ -39,28 +39,21 @@
 
       <!-- Embed Instagram Posts -->
       <div id="Instagram" class="tabcontent">
-        <!-- Embed Instagram Posts -->
-        <script src="http://matthewelsom.com/assets/js/libs/instafeed.min.js" type="text/javacript"></script>
+        <div id="instafeed"></div>
+        <script src="http://matthewelsom.com/assets/js/libs/instafeed.min.js"></script>
         <script type="text/javascript">
-          var feed = new Instafeed({
-            target: 'instagram',
-            get: 'tagged',
-            tagName: 'awesome',
-            clientId: '5f711d13ad084dd4856760f54db39e4b',
-            accessToken: '15267506.5f711d1.033f6f50adcc45b09a51b6a5cf893f23'
-          });
-          feed.run();
-        </script>
-        <div id="instagram"></div>
-        <!-- <script type="text/javascript">
+          // var Instafeed = require("instafeed.js");
           var userFeed = new Instafeed({
-            target: 'instagram',
             get: 'user',
-            userId: 15267506,
-            clientId: '5f711d13ad084dd4856760f54db39e4b'
+            userId: '15267506',
+            // clientId: '5f711d13ad084dd4856760f54db39e4b',
+            accessToken: '15267506.1677ed0.f48fa5a72f5d4ceabb68c3896dd5e905',
+            resolution: 'low_resolution',
+            template: '<a href="{{link}}" target="_blank" id="{{id}}"><img src="{{image}}" /></a>',
+            sortBy: 'most-recent',
           });
           userFeed.run();
-        </script> -->
+        </script>
       </div>
 
       <!-- Embed YouTube Playlist -->
