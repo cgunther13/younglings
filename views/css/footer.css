@@ -1,0 +1,42 @@
+.footer-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: darkseagreen;
+    color: white;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.copyright{
+    width: 60%;
+    float: left;
+}
+
+
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.social-media li{
+    text-decoration: none;
+    margin: 0px 10px 0px 10px;
+}
+
+.fa{
+    text-decoration: none;
+    color: white;
+}
+
+.fa:hover{
+    color: darkgreen;
+}
