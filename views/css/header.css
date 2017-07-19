@@ -2,9 +2,9 @@
     width: 100%;
     margin: 0 auto;
     display: inline-block;
-    
-    background-color:#287070;
+    background-color: #287070;
     color: white;
+    height: 120px;
 }
 
 .banner-left{
@@ -25,25 +25,33 @@
     font-size: 18px;
 }
 
+.banner-left-text h1{
+    font-weight: 200;
+    font-size: 32px;
+}
+
 .banner-search{
     float: right;
     margin-right: 10em;
 }
 
+.banner img {
+    float: left;
+    padding: 10px;
+    height: 100px;
+    width: 100px;
+}
+
 input{
-    
     border: 1px solid white;
     border-radius: 10px 10px 10px 10px;
     width: 200px;
 }
 
 input[type=text]{
-    
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-    
     background-color: #287070;
-    
 }
 
 input::placeholder{
@@ -89,7 +97,6 @@ input[type=text]:focus {
     display: block;
     color: white;
     text-decoration: none;
-    
     float: left;
     font-size: 20px;
     padding: 10px 20px;
@@ -97,6 +104,4 @@ input[type=text]:focus {
 
 .link-ref:hover{
     background-color: darkgreen;
-    
 }
-
