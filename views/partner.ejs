@@ -3,13 +3,24 @@
 <html>
   <head>
     <% include partials/head %>
+    <link href="css/partner.css" type="text/css" rel="stylesheet">
   </head>
   <body>
     <header>
       <% include partials/header %>
     </header>
     <main>
-      <h1>Partner with Younglings</h1>
+      <div class="partner-main-text">
+        <h1 class="partner-title">Partner with Younglings</h1>
+          <p>Interested in learning more or getting involved? Find out how you can help us in our mission to develop the technologists of tomorrow just by sending an email. Reach out at <a href="mailto:younglings@cowboyaliens.com?Subject=Younglings%20Inquiry">younglings@cowboyaliens.com</a> or fill in the form below. Thanks!</p>
+          <form action="/action_page.php">
+            <input type="text" name="name" placeholder="Full Name"><br>
+            <input type="text" name="company" placeholder="Company"><br>
+            <input type="text" name="subject" placeholder="Subject"><br>
+            <textarea rows="10" name="subject" placeholder="Message"></textarea>
+            <input type="submit" Value="Send">
+          </form>
+      </div>
     </main>
     <footer>
       <% include partials/footer %>
