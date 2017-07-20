@@ -30,10 +30,6 @@
     font-size: 32px;
 }
 
-.banner-search{
-    float: right;
-    margin-right: 10em;
-}
 
 .banner img {
     float: left;
@@ -42,26 +38,14 @@
     width: 100px;
 }
 
-input{
-    border: 1px solid white;
-    border-radius: 10px 10px 10px 10px;
-    width: 200px;
+.right-text{
+    line-height: .5em;
+    float: right;
+    margin-right: 10px;
 }
 
-input[type=text]{
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    background-color: #287070;
-}
-
-input::placeholder{
-    color: white;
-}
-
-input[type=text]:focus {
-    width: 10%;
-    outline: none;
-    color: white;
+.right-text p{
+  font-size: 14px;
 }
 
 
@@ -69,6 +53,7 @@ input[type=text]:focus {
     width: 100%;
     margin: 0px auto;
     padding: 0px;
+    margin-top: -5px;
 }
 
 .nav{
@@ -104,4 +89,18 @@ input[type=text]:focus {
 
 .link-ref:hover{
     background-color: darkgreen;
+}
+
+
+.wrapper ul:after{
+  content: "";
+  visibility: hidden;
+}
+
+.wrapper ul li a:after{
+  content: "";
+}
+
+.wrapper ul li.last > a:after, .wrapper ul li:last-child > a:after {
+    display: none;
 }
