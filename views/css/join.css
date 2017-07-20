@@ -12,8 +12,8 @@ body{
 }
 
   .join-main-text a{
-    color: #9DB68C;
-    padding: 0 80px 30px 80px;
+    color: darkseagreen;
+    padding: 0 80px;
   }
 
 .join-title{
@@ -47,8 +47,57 @@ body{
   padding: 50px 0 50px 0;
 }
 
+/*Images*/
+
 .join-main-text img {
-  display: none;
   height: 100px;
   width: 100px;
+  border: 2px solid black;
+}
+
+.images {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border: 2px solid black;
+  padding:
+}
+
+.image {
+  vertical-align: middle;
+}
+
+#capaciti {
+  width: 20%;
+  height: auto;
+}
+
+#oracle {
+  width: 30%;
+  height: auto;
+}
+
+#barclays {
+  width: 30%;
+  height: auto;
+}
+
+#dvt {
+  width: 30%;
+  height: auto;
+}
+
+#oldmutual {
+  width: 30%;
+  height: auto;
+}
+
+#realm {
+  width: 30%;
+  height: auto;
+}
+
+#opti {
+  width: 30%;
+  height: auto;
 }

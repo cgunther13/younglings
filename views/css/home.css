@@ -21,3 +21,9 @@ body{
     margin-bottom: 30px;
     text-align: left;
 }
+
+iframe {
+  display: block;
+  margin: 0 auto 30px auto;
+  border: 1px solid darkseagreen;
+}
