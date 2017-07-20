@@ -56,48 +56,66 @@ body{
 }
 
 .images {
-  position: relative;
-  height: 100%;
+  height: 200px;
   width: 100%;
   border: 2px solid black;
-  padding:
+  vertical-align: middle;
 }
 
 .image {
+  position: relative;
+  display: inline;
+  float: left;
   vertical-align: middle;
 }
 
 #capaciti {
+  top: 30px;
+  left: 0;
   width: 20%;
   height: auto;
 }
 
 #oracle {
+  top: 30px;
+  left: 140px;
   width: 30%;
+  height: auto;
+}
+
+#gov {
+  top: 30px;
+  left: 280px;
+  width: 25%;
   height: auto;
 }
 
 #barclays {
-  width: 30%;
+  left: 0;
+  width: 15%;
   height: auto;
 }
 
 #dvt {
-  width: 30%;
+  left: 10px;
+  width: 20%;
   height: auto;
 }
 
 #oldmutual {
-  width: 30%;
+  left: 10px;
+  width: 20%;
   height: auto;
 }
 
 #realm {
-  width: 30%;
+  left: 10px;
+  width: 20%;
   height: auto;
 }
 
 #opti {
-  width: 30%;
+  left: 0;
+  width: 20%;
   height: auto;
 }
