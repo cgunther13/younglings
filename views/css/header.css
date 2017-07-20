@@ -92,3 +92,12 @@
   .nav-item:hover{
       background-color: darkgreen;
   }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+    a:hover {
+      text-decoration: underline;
+    }
