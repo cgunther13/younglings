@@ -30,10 +30,6 @@
     font-size: 32px;
 }
 
-.banner-search{
-    float: right;
-    margin-right: 10em;
-}
 
 .banner img {
     float: left;
@@ -42,10 +38,22 @@
     width: 100px;
 }
 
+.right-text{
+    line-height: .5em;
+    float: right;
+    margin-right: 10px;
+}
+
+.right-text p{
+  font-size: 14px;
+}
+
+
 .wrapper{
     width: 100%;
     margin: 0px auto;
     padding: 0px;
+    margin-top: -5px;
 }
 
 .nav{
@@ -81,4 +89,18 @@
 
 .link-ref:hover{
     background-color: darkgreen;
+}
+
+
+.wrapper ul:after{
+  content: "";
+  visibility: hidden;
+}
+
+.wrapper ul li a:after{
+  content: "";
+}
+
+.wrapper ul li.last > a:after, .wrapper ul li:last-child > a:after {
+    display: none;
 }
