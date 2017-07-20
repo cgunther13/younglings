@@ -76,13 +76,11 @@ body{
 }
 
 .images {
-  height: 200px;
+  position: relative;
+  height: 100%;
   width: 100%;
   border: 2px solid black;
-  vertical-align: middle;
 }
-
-
 
 .lower-images-container{
   display: flex;
@@ -101,12 +99,7 @@ body{
   margin: 0 auto;
 }
 
-
-
 .image {
-  position: relative;
-  display: inline;
-  float: left;
   vertical-align: middle;
 }
 
@@ -116,6 +109,7 @@ body{
 }
 
 #capaciti {
+  width: 25%;
   height: auto;
   margin: 0 auto;
 }
@@ -133,18 +127,21 @@ body{
 }
 
 #barclays {
+  width: 40%;
   height: auto;
   margin: 0 auto;
   display: block;
 }
 
 #dvt {
+  width: 40%;
   height: auto;
   margin: 0 auto;
   display: block;
 }
 
 #oldmutual {
+  width: 40%;
   height: auto;
   margin: 0 auto;
   display: block;
@@ -153,10 +150,10 @@ body{
 #realm {
   width: 20%;
   height: auto;
-
 }
 
 #opti {
+  width: 40%;
   height: auto;
   margin: 0 auto;
   display: block;
