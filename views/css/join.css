@@ -1,3 +1,4 @@
+
 body{
     font-family: "Raleway", sans-serif;
     margin: 0;
@@ -80,10 +81,7 @@ body{
   height: 100%;
   width: 100%;
   border: 2px solid black;
-  padding:
 }
-
-
 
 .lower-images-container{
   display: flex;
@@ -101,8 +99,6 @@ body{
   width: 60%;
   margin: 0 auto;
 }
-
-
 
 .image {
   vertical-align: middle;
@@ -155,7 +151,6 @@ body{
 #realm {
   width: 20%;
   height: auto;
-
 }
 
 #opti {
